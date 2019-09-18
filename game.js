@@ -1,6 +1,8 @@
 var score = 0; 
 
-postToPage(score); // Print to the page
+var title = new Title('Welcome to the Game'); // Create a title element
+var button = new Button('hello', btnPress);   // Create a button element
+var scr = new Text(score);                    // Create a text element
 
 createButton('Click me', btnPress);
 changeTitle('Click the Button');
@@ -147,8 +149,8 @@ changeTitle('Click the Button');
 
 
 function btnPress() {
-  score++;
-  postToPage(score);
+  score++;         // Increase the score
+  scr.edit(score); // Update the page with the new score
 }
 
 
