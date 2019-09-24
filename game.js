@@ -1,4 +1,3 @@
-
 var score = 0; // Create a variable to store the score in
 
 var title = new Title('Train (Working title (Prototype))'); // Create a title element
