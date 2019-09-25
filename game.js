@@ -20,19 +20,6 @@ function btnPress() {
     hidden.show(250);
   }
   if(score > 12) {
-    hidden.hide(500);
+    hidden.hide(250);
   }
 }
-function btnPress() {
-
-  score++;
-  scr.edit(score);
-    if(score > 20) {
-       hidden.show(750);
-    }
-    if (score > 22) {
-      hidden.hide(1000)
-
-    }
-  }
-
