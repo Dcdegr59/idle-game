@@ -47,5 +47,5 @@ function randomCrate() {
 
 
 function randomItem() {
-  let n = randomID(0 <21 )
+  let n = randomID(0 <21 ) 
 }
