@@ -41,9 +41,11 @@ function timerCheck() {
  
 }
 function randomCrate() {
+  let n = randomID(0 < 2)
 
 }
 
-function randomItem() {
 
+function randomItem() {
+  let n = randomID(0 <21 )
 }
